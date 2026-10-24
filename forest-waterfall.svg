@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="forest-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9ab9a2"/><stop offset="1" stop-color="#173f32"/></linearGradient>
+    <linearGradient id="cliff" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#344d3f"/><stop offset=".5" stop-color="#766f57"/><stop offset="1" stop-color="#293e34"/></linearGradient>
+    <linearGradient id="fall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c4e4db"/><stop offset=".45" stop-color="#f8f5e5"/><stop offset="1" stop-color="#8dbbb5"/></linearGradient>
+    <linearGradient id="pool" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#77b6ac"/><stop offset="1" stop-color="#1a5351"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#forest-bg)"/>
+  <path d="M0 0h250l65 160-50 150 73 160-46 170 70 160H0Z" fill="#1b4a38"/>
+  <path d="M1200 0H960l-70 150 54 140-75 170 55 180-52 160h328Z" fill="#173d30"/>
+  <g fill="#285a3c"><path d="m40 310 90-215 90 215h-60l65 95H35l65-95z"/><path d="m165 445 74-182 75 182h-50l55 75H160l55-75z"/><path d="m945 330 90-214 90 214h-60l62 90H935l62-90z"/><path d="m1020 520 70-168 70 168h-45l52 70h-155l52-70z"/></g>
+  <path d="M250 0h700l-65 190 35 125-70 120 52 180-42 185H310l-48-183 55-169-47-139 30-130Z" fill="url(#cliff)"/>
+  <path d="M440 0h320l-20 130 24 95-28 110 20 135-25 90H459l-17-104 23-110-20-114 20-115Z" fill="url(#fall)"/>
+  <path d="M485 0h30l-8 160 10 150-12 140 9 105h-24l-7-108 11-145-13-150Z" fill="#fffef1" opacity=".84"/>
+  <path d="M590 0h22l-8 145 10 135-15 142 8 130h-20l-8-128 13-145-10-136Z" fill="#fffefb" opacity=".7"/>
+  <path d="M0 570q165-25 310 12t290 0 300 5 300-17v230H0Z" fill="url(#pool)"/>
+  <ellipse cx="600" cy="625" rx="300" ry="47" fill="#a5d6c9" opacity=".58"/>
+  <path d="M180 700q130-24 250 0m365-17q95-18 195 0M420 756q180-22 340 0" fill="none" stroke="#b9e1d3" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+  <g fill="#183f2f"><path d="m20 670 55-130 55 130H95l40 60H15l40-60z"/><path d="m1040 675 47-112 47 112h-30l36 52h-106l36-52z"/></g>
+</svg>
